@@ -1,0 +1,285 @@
+*{
+    position: relative;  
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: '微軟正黑體'!important; 
+    font-weight: 900 !important;
+    letter-spacing: 0.1em;
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+.title0{
+    text-align: center;
+    margin-bottom: -30px ;
+}
+
+
+.title0 img{
+    width: 310px;
+    text-align: center;
+}
+
+a{
+    color:rgb(116, 108, 108) !important;
+}
+
+.bg-dark{
+   
+    background: rgb(255, 255, 255) !important;
+}
+.nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    text-align: center;
+}
+img{
+    width: 100%;
+}
+
+.head{
+    background-image: url("banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin: auto;
+    height:30vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+h5{
+    color:#948073;
+    font-weight: 600;
+}
+
+.web-work{
+  
+    margin-bottom: 100px;
+}
+
+.design-box h3{
+    margin: 40px auto;
+}
+
+.design-work{
+    background-color: #bf9d6d;
+    /* background-image: url(../../asset/img/new_bgc.jpg); */
+    width: 100%;
+    /* margin:20px auto; */
+    padding: 5px 10px 5px;
+    color: #fff;
+}
+.design-box img{
+    width: 180px;
+    margin: 20px 0;
+}
+
+
+  
+
+.design-work{
+    text-align: center;
+}
+
+
+.title1{
+    text-align: center;
+    margin-bottom: -30px ;
+}
+
+.title1 .title img{
+    width: 310px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.title1 a img {
+    width: 240px;
+    margin: 5px 0 8px 0;
+}
+
+@media screen and (min-width:768px){
+    .head{
+        background-image: url("banner.jpg");
+        max-width: 1600px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        margin: auto;
+        height:70vh;
+        /* Create the parallax scrolling effect */
+        /* background-attachment: fixed; */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .web-work{
+        display: flex;
+        max-width: 960px;
+        margin: auto;
+        /* border:solid 1px pink; */
+        margin-bottom: 200px;
+    }
+
+
+
+    .design-work .design-box{
+        margin: auto;
+        max-width: 960px;;
+    }
+  
+}
+
+@media screen and (max-width: 960px){
+    section {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+  
+
+  }
+
+
+
+
+
+
+  .lightbox{
+    width: 310px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cardbox-01{
+    width: 310px;
+    background-image: url("dataCardBgc01.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto; /* 臨時 */
+    margin-right: auto; /* 臨時 */
+    margin-top: 60px;  /* 臨時 */
+    text-align: center;
+}
+
+.cardbox-02{
+    width: 310px;
+    background-image: url("dataCardBgc02.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto; /* 臨時 */
+    margin-right: auto; /* 臨時 */
+    margin-top: 60px;  /* 臨時 */
+    text-align: center;
+}
+
+.cardbox-03{
+    width: 310px;
+    background-image: url("dataCardBgc03.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto; /* 臨時 */
+    margin-right: auto; /* 臨時 */
+    margin-top: 60px;  /* 臨時 */
+    text-align: center;
+}
+
+
+
+.img img{
+    width: 310px;
+}
+
+.content{
+    margin: auto;
+    padding: 0px 5px 5px 5px;
+    text-align: left;
+}
+
+.content .title {
+    display: inline-block;
+    padding: 10px 5px;
+    margin-top: -80px;
+    margin-left: 30px;
+    text-align: left;
+    color: #fff;
+    background-color: #bf9d6d;
+    writing-mode:vertical-lr;
+}
+
+.content .subtitle{
+    font-size: 18px;
+    color: #727171;
+}
+
+.content p{
+    font-size: 15px;
+    line-height: 20px;
+    color: #727171;
+}
+
+.price{
+    margin-top: 20px;
+    padding: 0 5px;
+    display: flex;
+}
+
+.price-list{
+    width: 60%;
+    height: 24px;
+    display: flex;
+    justify-content:flex-end;
+    font-size: 18px;
+    color: #727171;
+}
+
+.count{
+    width: 40%;
+    height: 24px;
+    display: flex;
+    justify-content:flex-end;     
+    line-height: 0;
+}
+
+.notes{
+    width: 50px;
+    height: 24px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #bf9d6d;
+    margin-left:3px ;
+    margin-right:3px;
+    text-align: center;
+}
+
+/* remove input arrow  - Chrome, Safari, Edge, Opera */
+.notes[type=number]::-webkit-outer-spin-button,
+.notes[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+/* remove input arrow - Firefox */
+.notes[type=number] {
+    -moz-appearance: textfield;
+}
+
+.add img, .less img{
+    width: 24px;
+    height: 24px;
+}
+
